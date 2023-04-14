@@ -722,6 +722,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 		}
 	
 /* about-text-ends */
+/* cfp */
+.cfp{
+  padding-top: 10%;
+  color: black;
+  background-color:whitesmoke;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+}
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
