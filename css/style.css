@@ -266,7 +266,7 @@ h6 {
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: rgba(202, 206, 221, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -275,7 +275,7 @@ h6 {
 
 .nav-menu .menu-active a,
 .nav-menu a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 
 .nav-menu > li {
@@ -1661,6 +1661,41 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ddd;
 }
+.dropbtn {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  padding: 6px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #797979;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(172, 172, 172);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #000000;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: transparent;}
+
 
 /*--------------------------------------------------------------
 # Responsive Media Queries
