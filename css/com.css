@@ -45,6 +45,8 @@ body {
     margin: 0 0 20px 0;
     padding: 0;
     color: #0e1b4d;
+    text-align: justify;
+    
   }
   
   .main-page {
@@ -1701,6 +1703,9 @@ body {
     margin: 0;
     padding-top: 100px;
 }
+  .qr{
+    height: 384px;
+  }
   
   /*--------------------------------------------------------------
   # Responsive Media Queries
